@@ -1,0 +1,144 @@
+html,body {
+    margin: 0;
+    font-family: Montserrat, san-serif;
+    font-size: 2vh;
+    height: 100%;
+    overflow-x: hidden;
+}
+#home {
+    background-image: url('../images/playful-kitten-6683.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+#nav-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+nav > a:last-child {
+    margin-right: 3vw;
+}
+nav > a {
+    color: orange;
+    text-decoration: none;
+    margin-right: 3vw;
+    line-height: 5em;
+    vertical-align: middle;
+    font-size: 26px;
+    text-shadow: black 1px 2px;
+    font-weight: 900;
+}
+nav > a:hover {
+    position: relative;
+    top: -15px;
+}
+.tagline {
+    position: fixed;
+    top: 0px;
+    left: 5px;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 0;
+}
+.tagline > h1 {
+    font-size: 54px;
+    margin: 0;
+    padding-left: 16px;
+    font-weight: 900;
+}
+.tagline > span {
+    color: orange;
+    text-shadow: black 1px 2px;
+}
+.network {
+    position: fixed;
+    top: 35px;
+    left: 1px;
+    margin: 0;
+    font-size: 32px;
+    line-height: 3em;
+    padding-left: 16px;
+}
+.logo {
+    height: 32px;
+    vertical-align: middle;
+}
+.spin {
+    -ms-transform: rotateY(360deg);
+    /* IE 9 */
+    -webkit-transform: rotateY(360deg);
+    /* Chrome, Safari, Opera */
+    transform: rotateY(360deg);
+    transition-duration: 5s;
+}
+#about {
+    background-image: url('../images/kitten-flying.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+#about > .summary {
+    position: relative;
+    top: 15vh;
+    left: 23vw;
+}
+#about > .summary > p {
+    font-size: 24px;
+    margin: 0;
+}
+.schedule {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 36%;
+    height: 36%;
+    overflow: auto;
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size: medium;
+}
+.table {
+    color: orange;
+}
+.close {
+    float: right;
+}
+.contact {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 15%;
+    overflow: auto;
+    color: orange;
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size: medium;
+    text-align: center;
+}
+.phone {
+    color: orange;
+    padding-right: 10px;
+}
+.contact > span {
+    vertical-align: middle;
+    padding-right: 10px;
+}

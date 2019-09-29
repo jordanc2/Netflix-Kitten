@@ -1,0 +1,71 @@
+html, body {
+    font-size: 3vmax;
+}
+#nav-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+nav > a:last-child {
+    margin-right: 3vw;
+}
+nav > a {
+    color: orange;
+    text-decoration: none;
+    margin-right: 3vw;
+    line-height: 5em;
+    vertical-align: middle;
+    font-size: 2vmax;
+    text-shadow: black 1px 2px;
+    font-weight: 900;
+}
+#home {
+    background-image: url('../images/kitten-v.jpg');
+}
+.tagline {
+    font-size: 3vmax;
+}
+.network {
+    font-size: 3vmax;
+}
+#about {
+    background-image: url('../images/kitten-flying-v.jpg');
+}
+#about > .summary > p {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+}
+.schedule {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 20%;
+    overflow: auto;
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size: 3vmin;
+}
+.contact {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 15%;
+    overflow: auto;
+    color: orange;
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size: 3vmax;
+    text-align: center;
+}
